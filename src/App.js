@@ -29,6 +29,11 @@ import ContactUs from "./components/ContactUs";
 import AboutUs from "./components/AboutUs";
 
 
+import Home1 from './pages/Home1/Home1'
+import Yoga from './pages/Yoga/Yoga'
+import About from './pages/About/About'
+import Tutorials from './pages/Tutorials/Tutorials'
+
 
 
 
@@ -70,6 +75,11 @@ function App(){
       <Route path="ContactUs" element={<ContactUs />} />
 
       <Route path="AboutUs" element={<AboutUs />} />
+
+      <Route path='/home1' element={<Home1 />}/>
+        <Route path='/start' element={<Yoga />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/tutorials' element={<Tutorials />} />
 
     </Routes>
     </BrowserRouter>
