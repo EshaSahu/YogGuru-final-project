@@ -1,5 +1,5 @@
 .home-header {
-    background: linear-gradient(100deg,#FF8C00, #FFA500);
+    background: linear-gradient(100deg,RGB(227,208,244)C00, RGB(227,208,244));
     width: 100vw;
     height: 70px;
     display: flex;
@@ -57,7 +57,7 @@
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-size: 24px;
-    border-color: #FFA500;
+    border-color: RGB(227,208,244);
     border-radius: 8px;
     border-width: 4px;
     cursor: pointer;
